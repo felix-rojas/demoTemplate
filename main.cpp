@@ -23,14 +23,19 @@ int main()
 
     std::cout << myList.getData(3) << std::endl;
     myList.erase();
+    std::cout << myList.getData(2) << std::endl;
     myList.print();
     std::cout << std::endl;
 
     std::cout << "Elementos en vector: "<< myList.getSize() << std::endl;
     myList.erase();
+    std::cout << "Elementos en vector: "<< myList.getSize() << std::endl;
     myList.erase();
+    std::cout << "Elementos en vector: "<< myList.getSize() << std::endl;
     myList.erase();
+    std::cout << "Elementos en vector: "<< myList.getSize() << std::endl;
     myList.erase();
+    std::cout << "Elementos en vector: "<< myList.getSize() << std::endl;
 
     return 0;
 }
